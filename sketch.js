@@ -83,7 +83,7 @@ function draw() {
     text("GAME OVER", width / 2, height / 2);
     cursor(ARROW);
   } else if (status == GAMECLEAR) {
-    textSize(80);
+    textSize(40);
     textAlign(CENTER, CENTER);
     textFont("Roboto");
     noStroke();
